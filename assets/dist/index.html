@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Accordion table</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
+
+  <!-- bootstrap CSS -->
+  <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css" media="all" />
+  <!-- carousel CSS -->
+  <link rel="stylesheet" href="../css/owl.carousel.min.css" type="text/css" media="all" />
+  <!-- responsive CSS -->
+  <link rel="stylesheet" href="../css/responsive.css" type="text/css" media="all" />
+  <!-- nivo-slider CSS -->
+  <link rel="stylesheet" href="../css/nivo-slider.css" type="text/css" media="all" />
+  <!-- animate CSS -->
+  <link rel="stylesheet" href="../css/animate.css" type="text/css" media="all" />
+  <!-- animated-text CSS -->
+  <link rel="stylesheet" href="../css/animated-text.css" type="text/css" media="all" />
+  <!-- font-awesome CSS -->
+  <link type="text/css" rel="stylesheet" href="../fonts/font-awesome/css/font-awesome.min.css">
+  <!-- font-flaticon CSS -->
+
+
+  <link type='text/css' href='css/demo.css' rel='stylesheet' media='screen' />
+
+  <!-- Contact Form CSS files -->
+  <link type='text/css' href='css/basic.css' rel='stylesheet' media='screen' />
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+</head>
+
+<body>
+  <!-- partial:index.partial.html -->
+  <table class="fold-table">
+    <!-- <thead>
+    <tr>
+      <th>Company</th>
+    </tr>
+  </thead> -->
+    <tbody>
+      <tr class="view">
+        <td>1.1 Análisis fisicoquímico o
+          calidad del aceite</td>
+
+      </tr>
+      <tr class="fold">
+        <td colspan="7">
+          <div class="fold-content">
+            <!-- <h3>Company Name</h3> -->
+            <p style="text-align: justify">Los líquidos aislantes se utilizan
+              para aislar y refrigerar el equipo
+              eléctrico. Las pruebas de calidad
+              del aceite son la mejor manera de
+              evaluar el estado del líquido
+              aislante, con el resultado de este
+              analisis se va determinar si es
+              necesario realizar un tratamiento
+              para mejorar las propiedades del
+              aceite.<br><br>
+              <b>Parámetros del analisis fisicoquímico estándar</b>
+            </p>
+            <table>
+              <thead>
+                <tr>
+                  <th>Parámetro</th>
+                  <th>Norma</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Contenido de Agua/Humedad</td>
+                  <td>
+
+                    <div id='basic-modal'>
+                      <a href='#' class='basic'>ASTM D1533</a>
+                    </div>
+
+                    <!-- modal content -->
+                    <div id="basic-modal-content">
+                      <h5>Norma</h5>
+                      <p>ASTM D1533: La presencia de humedad representa una de las causas más comunes de propiedades
+                        dieléctricas desfavorables en los líquidos aislantes. El agua se reporta en unidades de partes
+                        por millón (mg / kg). El análisis se realiza usando una titulación coulométrica (Karl Fisher).
+                        El agua también aumenta el envejecimiento del papel.</p>
+                    </div>
+
+                    <!-- preload the images -->
+                    <div style='display:none'>
+                      <img src='img/basic/x.png' alt='' />
+                    </div>
+
+
+                  </td>
+                </tr>
+                <tr>
+                  <td>Tensión Interfacial </td>
+                  <td>
+
+                    <div id='basic2-modal'>
+                      <a href='#' class='basic2'>ASTM D971</a>
+                    </div>
+
+                    <!-- modal content -->
+                    <div id="basic2-modal-content">
+                      <h5>Norma</h5>
+                      <p>ASTM D971: La tensión interfacial es una medida de las fuerzas de atracción entre las moléculas
+                        de los dos líquidos. Se expresa en mili-Newton por metro (mN/m). La prueba es un medio excelente
+                        de detección de contaminantes polares solubles en aceite y productos de oxidación en aceites
+                        minerales.</p>
+                    </div>
+
+                    <!-- preload the images -->
+                    <div style='display:none'>
+                      <img src='img/basic/x.png' alt='' />
+                    </div>
+
+
+                  </td>
+                </tr>
+                <tr>
+                  <td>Índice de Neutralización o de acidez </td>
+                  <td>
+                    <div id='basic3-modal'>
+                      <a href='#' class='basic3'>ASTM D974</a>
+                    </div>
+
+                    <!-- modal content -->
+                    <div id="basic3-modal-content">
+                      <h5>Norma</h5>
+                      <p>ASTM D974: En el aceite nuevo, es probable que cualquier ácido presente sea un residuo del
+                        proceso de refinación del petróleo. En un líquido envejecido en servicio, el número de
+                        neutralización es una medida de los subproductos ácidos de la oxidación del aceite. El número de
+                        neutralización se puede utilizar como una guía general para determinar cuándo se debe reprocesar
+                        o reemplazar el aceite.</p>
+                    </div>
+
+                    <!-- preload the images -->
+                    <div style='display:none'>
+                      <img src='img/basic/x.png' alt='' />
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Color</td>
+                  <td>
+                    <div id='basic4-modal'>
+                      <a href='#' class='basic4'>ASTM D1500</a>
+                    </div>
+
+                    <!-- modal content -->
+                    <div id="basic4-modal-content">
+                      <h5>Norma</h5>
+                      <p>ASTM D1500: Cualquier cambio en el color del aceite con el tiempo es una indicación de
+                        oxidación, deterioro o contaminación del aceite.</p>
+                    </div>
+
+                    <!-- preload the images -->
+                    <div style='display:none'>
+                      <img src='img/basic/x.png' alt='' />
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Apecto Visual </td>
+                  <td>
+                    <div id='basic5-modal'>
+                      <a href='#' class='basic5'>ASTM D1524</a>
+                    </div>
+
+                    <!-- modal content -->
+                    <div id="basic5-modal-content">
+                      <h5>Norma</h5>
+                      <p>ASTM D1524: Esta prueba indica el color y grado de turbidez del aceite mineral, lo que puede
+                        indicar la presencia de agua libre o partículas sólidas contaminantes. La fuente de
+                        contaminantes sólidos insolubles puede determinarse filtrando las partículas y examinándolas.
+                        Esta prueba puede usarse para sugerir la necesidad de pruebas de laboratorio adicionales, ya que
+                        puede permitir determinar si la muestra debe enviarse a un laboratorio central para una
+                        evaluación completa.</p>
+                    </div>
+
+                    <!-- preload the images -->
+                    <div style='display:none'>
+                      <img src='img/basic/x.png' alt='' />
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Factor de Potencia a 100C </td>
+                  <td>
+                    <div id='basic6-modal'>
+                      <a href='#' class='basic6'>ASTM D924</a>
+                    </div>
+
+                    <!-- modal content -->
+                    <div id="basic6-modal-content">
+                      <h5>Norma</h5>
+                      <p>ASTM D924: El factor de disipación es una medida de la potencia perdida cuando un líquido
+                        aislante eléctrico se somete a un campo de corriente alterna. La energía se disipa como calor
+                        dentro del líquido. Un factor de disipación de bajo valor significa que el líquido hará que se
+                        pierda una pequeña parte de la potencia aplicada. La prueba se utiliza para comprobar el
+                        deterioro y la contaminación del aceite aislante debido a su sensibilidad a los contaminantes
+                        iónicos.</p>
+                    </div>
+
+                    <!-- preload the images -->
+                    <div style='display:none'>
+                      <img src='img/basic/x.png' alt='' />
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Gravedad específica </td>
+                  
+                  
+                  <td>
+                    <div id='basic7-modal'>
+                      <a href='#' class='basic7'>ASTM D1298</a>
+                    </div>
+
+                    <!-- modal content -->
+                    <div id="basic7-modal-content">
+                      <h5>Norma</h5>
+                      <p>ASTM D1298: La densidad relativa del aceite mineral es la relación de los pesos de volúmenes
+                        iguales de aceite y agua, probados a 15 °C. La densidad relativa es importante para determinar
+                        la idoneidad para su uso en ciertas aplicaciones. Cuando se considera junto con otras
+                        propiedades del aceite, la densidad relativa puede ser un indicador de la calidad del aceite.
+                        Con una gravedad específica muy alta y a temperaturas muy bajas, se pueden formar cristales de
+                        hielo dentro del transformador.</p>
+                    </div>
+
+                    <!-- preload the images -->
+                    <div style='display:none'>
+                      <img src='img/basic/x.png' alt='' />
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Tensión de ruptura dieléctrica </td>
+                  <td>
+                    <div id='basic8-modal'>
+                      <a href='#' class='basic8'>ASTM D1816</a>
+                    </div>
+
+                    <!-- modal content -->
+                    <div id="basic8-modal-content">
+                      <h5>Norma</h5>
+                      <p>ASTM D1816: El voltaje de ruptura dieléctrica del líquido aislante es una medida de su
+                        capacidad para soportar el estrés del voltaje sin fallar. Es el voltaje al que se produce la
+                        ruptura entre dos electrodos en las condiciones de prueba prescritas. La prueba sirve
+                        principalmente para indicar la presencia de contaminantes conductores de electricidad en el
+                        líquido, como agua, suciedad, fibras celulósicas húmedas o partículas. Sin embargo, un alto
+                        voltaje de ruptura dieléctrica no indica la ausencia de todos los contaminantes.</p>
+                    </div>
+
+                    <!-- preload the images -->
+                    <div style='display:none'>
+                      <img src='img/basic/x.png' alt='' />
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <p><br><br>
+              <b>Parámetros del adicionales del analisis fisicoquimico</b>
+            </p>
+            <table>
+              <thead>
+                <tr>
+                  <th>Parámetro</th>
+                  <th>Norma</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Factor de Potencia a 25C </td>
+                  <td>
+                    <div id='basic9-modal'>
+                      <a href='#' class='basic9'>ASTM D924</a>
+                    </div>
+
+                    <!-- modal content -->
+                    <div id="basic9-modal-content">
+                      <h5>Norma</h5>
+                      <p>ASTM D924: El factor de disipación es una medida de la potencia perdida cuando un líquido
+                        aislante eléctrico se somete a un campo de corriente alterna. La energía se disipa como calor
+                        dentro del líquido. Un factor de disipación de bajo valor significa que el líquido hará que se
+                        pierda una pequeña parte de la potencia aplicada. La prueba se utiliza para comprobar el
+                        deterioro y la contaminación del aceite aislante debido a su sensibilidad a los contaminantes
+                        iónicos.</p>
+                    </div>
+
+                    <!-- preload the images -->
+                    <div style='display:none'>
+                      <img src='img/basic/x.png' alt='' />
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Punto de fluidez </td>
+                  <td>
+                    <div id='basic10-modal'>
+                      <a href='#' class='basic10'>ASTM D97</a>
+                    </div>
+
+                    <!-- modal content -->
+                    <div id="basic10-modal-content">
+                      <h5>Norma</h5>
+                      <p>ASTM D97: El punto de fluidez es la temperatura a la cual el líquido aislante deja de fluir bajo las condiciones de prueba prescritas. El punto de fluidez tiene poca importancia como prueba de contaminación o deterioro del líquido aislante. Puede ser útil para la identificación del aceite y la determinación de la idoneidad para un clima particular.</p>
+                    </div>
+
+                    <!-- preload the images -->
+                    <div style='display:none'>
+                      <img src='img/basic/x.png' alt='' />
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Inhibidor de Oxidación </td>
+                  <td>
+                    <div id='basic11-modal'>
+                      <a href='#' class='basic11'>ASTM D2668</a>
+                    </div>
+
+                    <!-- modal content -->
+                    <div id="basic11-modal-content">
+                      <h5>Norma</h5>
+                      <p>ASTM D2668: Dos inhibidores de oxidación sintéticos se usan comúnmente en líquidos dieléctricos. Son 2-6 diterciario-butilfenol (DBP) y 2-6 diterciario-butilpara-cresol (DBPC). Su uso proporciona mayor resistencia a la oxidación en sistemas que están parcial o totalmente expuestos al aire. La eficacia del inhibidor de oxidación depende en gran medida del tipo de crudo del que procede el aceite mineral aislante.
+                        Ciertos aceites minerales nuevos pueden contener sustancias antioxidantes naturales que pueden producir una indicación falsa positiva en esta prueba.
+                        </p>
+                    </div>
+
+                    <!-- preload the images -->
+                    <div style='display:none'>
+                      <img src='img/basic/x.png' alt='' />
+                    </div></td>
+                </tr>
+                <tr>
+                  <td>Tensión de ruptura dieléctrica </td>
+                  <td><div id='basic12-modal'>
+                    <a href='#' class='basic12'>ASTM D877</a>
+                  </div>
+
+                  <!-- modal content -->
+                  <div id="basic12-modal-content">
+                    <h5>Norma</h5>
+                    <p>ASTM D877: El voltaje de ruptura dieléctrica del líquido aislante es una medida de su capacidad para soportar el estrés del voltaje sin fallar. Es el voltaje al que se produce la ruptura entre dos electrodos en las condiciones de prueba prescritas. La prueba sirve principalmente para indicar la presencia de contaminantes conductores de electricidad en el líquido, como agua, suciedad, fibras celulósicas húmedas o partículas. Sin embargo, un alto voltaje de ruptura dieléctrica no indica la ausencia de todos los contaminantes.
+                      </p>
+                  </div>
+
+                  <!-- preload the images -->
+                  <div style='display:none'>
+                    <img src='img/basic/x.png' alt='' />
+                  </div></td>
+                </tr>
+                <tr>
+                  <td>Resistividad </td>
+                  <td><div id='basic13-modal'>
+                    <a href='#' class='basic13'>ASTM D1169</a>
+                  </div>
+
+                  <!-- modal content -->
+                  <div id="basic13-modal-content">
+                    <h5>Norma</h5>
+                    <p>ASTM D1169: La resistividad de un líquido es una medida de sus propiedades de aislamiento eléctrico en condiciones comparables a las de la prueba. La alta resistividad refleja un bajo contenido de iones libres y partículas formadoras de iones, y normalmente indica una baja concentración de contaminantes conductores.
+                      </p>
+                  </div>
+
+                  <!-- preload the images -->
+                  <div style='display:none'>
+                    <img src='img/basic/x.png' alt='' />
+                  </div></td>
+                </tr>
+                <tr>
+                  <td>Punto de anilina </td>
+                  <td><div id='basic14-modal'>
+                    <a href='#' class='basic14'>ASTM D611</a>
+                  </div>
+
+                  <!-- modal content -->
+                  <div id="basic14-modal-content">
+                    <h5>Norma</h5>
+                    <p>ASTM D611: El punto de anilina (temperatura) del aceite mineral indica la solvencia del aceite para algunos materiales que están en contacto con el aceite. Un punto de anilina alto indica un menor grado de aromaticidad y una menor solvencia para algún material (p. ej., caucho).
+                      </p>
+                  </div>
+
+                  <!-- preload the images -->
+                  <div style='display:none'>
+                    <img src='img/basic/x.png' alt='' />
+                  </div></td>
+                </tr>
+                <tr>
+                  <td>Estabilidad a la oxidación </td>
+                  <td><div id='basic15-modal'>
+                    <a href='#' class='basic15'>ASTM D2112</a>
+                  </div>
+
+                  <!-- modal content -->
+                  <div id="basic15-modal-content">
+                    <h5>Norma</h5>
+                    <p>ASTM D2112: Este método de prueba es una prueba rápida para evaluar la estabilidad a la oxidación de un aceite mineral nuevo que contiene el inhibidor de oxidación sintético 2-6 DBPC o 2-6 DBP. La prueba mide el tiempo requerido para que la muestra de aceite reaccione con un volumen dado de oxígeno cuando una muestra de aceite se calienta y oxida bajo las condiciones de la prueba.
+                      </p>
+                  </div>
+
+                  <!-- preload the images -->
+                  <div style='display:none'>
+                    <img src='img/basic/x.png' alt='' />
+                  </div></td>
+                </tr>
+                <tr>
+                  <td>Viscosidad </td>
+                  <td><div id='basic16-modal'>
+                    <a href='#' class='basic16'>ASTM D445</a>
+                  </div>
+
+                  <!-- modal content -->
+                  <div id="basic16-modal-content">
+                    <h5>Norma</h5>
+                    <p>ASTM D445: La viscosidad del líquido aislante se mide cronometrando el flujo de un volumen conocido de líquido aislante a través de un tubo calibrado a una temperatura específica. La viscosidad tiene una influencia importante en las características de transferencia de calor del aceite. La alta viscosidad disminuye la eficiencia de enfriamiento del aceite. La alta viscosidad también afectará el movimiento de las piezas de los equipos eléctricos, como interruptores automáticos, conmutadores, cambiadores de tomas, bombas y reguladores. La viscosidad es un actor en la determinación de las condiciones para el procesamiento del aceite y el tiempo de impregnación de la celulosa.
+                      </p>
+                  </div>
+
+                  <!-- preload the images -->
+                  <div style='display:none'>
+                    <img src='img/basic/x.png' alt='' />
+                  </div></td>
+                </tr>
+                <tr>
+                  <td>Punto de Inflamación </td>
+                  <td><div id='basic17-modal'>
+                    <a href='#' class='basic17'>ASTM D92</a>
+                  </div>
+
+                  <!-- modal content -->
+                  <div id="basic17-modal-content">
+                    <h5>Norma</h5>
+                    <p>ASTM D92: El punto de inflamación del aceite mineral es la temperatura a la que debe calentarse (bajo las condiciones prescritas de la prueba) para emitir suficiente vapor para formar una mezcla inflamable con el aire. El punto de inflamación es la temperatura que proporciona suficientes vapores combustibles para mantener un incendio durante 5 s (en las mismas condiciones de ensayo). Un punto de inflamación bajo puede indicar la presencia de contaminantes combustibles volátiles en el aceite mineral.
+                      </p>
+                  </div>
+
+                  <!-- preload the images -->
+                  <div style='display:none'>
+                    <img src='img/basic/x.png' alt='' />
+                  </div></td>
+                </tr>
+                <tr>
+                  <td>Otros </td>
+                  <td>     - </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <br><br>
+
+            <p style="text-align: center">
+              <img src="fisicoquimico1.jpeg" alt="" width="300" />
+              <img src="fisicoquimico2.jpeg" alt="" width="300"  />
+              <img src="fisicoquimico3.jpeg" alt="" width="300"  /><br />
+            </p>
+
+            <p style="text-align: center">
+              <img src="fisicoquimico4.jpeg" alt="" width="300" />
+              <img src="fisicoquimico5.jpeg" alt="" width="300"  />
+              <img src="fisicoquimico6.jpeg" alt="" width="300"  /><br />
+            </p>
+
+          </div>
+        </td>
+      </tr>
+      <tr class="view">
+        <td>1.2 Análisis cromatográfico – ASTM D3612</td>
+      </tr>
+      <tr class="fold">
+        <td colspan="7">
+          <div class="fold-content">
+            <!-- <h3>Company Name</h3> -->
+            <p style="text-align: justify">Las fallas eléctricas o térmicas, también pueden degradar el aceite mineral para formar una variedad de
+              productos gaseosos solubles de bajo peso molecular. La composición cualitativa de la mezcla de gases de
+              descomposición depende del tipo de falla; La cantidad de gases generados depende de la intensidad y
+              duración del fallo. La Interpretación de los resultados del análisis de gases disueltos (DGA), distingue
+              los procesos de falla tales como descargas parciales, sobrecalentamiento (pirólisis) y arco. DGA ha
+              demostrado ser una herramienta de diagnóstico eficaz para una gran variedad de equipos, tales como
+              transformadores de potencia, reactores, cambiadores de tomas bajo carga, transformadores de distribución,
+              cables llenos de aceite y disyuntores de aceite.
+
+              <br><br><b>Fallas que se detectan con el análisis de gases disueltos </b>
+            </p>
+            <table>
+              <thead>
+                <tr>
+                  <th><img src="img_4.png" alt="" /></th>
+                  <th><img src="img_5.png" alt="" /></th>
+                  <th><img src="img_6.png" alt="" /></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="text-align: center;">Descargas Parciales</td>
+                  <td style="text-align: center;">Calentamiento</td>
+                  <td style="text-align: center;">Arcos Eléctricos</td>
+                </tr>
+                <tr>
+                  <td
+                    style="vertical-align: top; font-size: 12px; text-align: justify; padding-left: 10px; padding-right: 20px;">
+                    Descargas parciales (PD), es una falla eléctrica de baja energía, es el resultado de la ionización
+                    del fluido aislante que rodea la falla. Típicamente los niveles crecientes de hidrógeno con bajos
+                    niveles de metano sin aumentos simultáneos de otros gases de hidrocarburos identifican corona.</td>
+                  <td
+                    style="vertical-align: top; font-size: 12px; text-align: justify; padding-left: 10px; padding-right: 20px;">
+                    El sobrecalentamiento del aceite en un transformador puede resultar de una variedad de causas, tales
+                    como sobrecarga, corrientes de circulación, conexión a tierra incorrecta y malas conexiones. El
+                    sobrecalentamiento se caracteriza por la presencia de hidrógeno, junto con metano, etano y etileno.
+                    Los defectos de sobrecalentamiento se clasifican a menudo según su temperatura, desde baja (Menos de
+                    300 ° C, T1) hasta alta (por encima de 700 ° C, T3).</td>
+                  <td
+                    style="vertical-align: top; font-size: 12px; text-align: justify; padding-left: 10px; padding-right: 20px;">
+                    Arco eléctrico (descargas de alta energía), el proceso de avería más severo, implica alta corriente
+                    y altas temperaturas. El arco eléctrico puede ocurrir antes de fallos de cortocircuito. El arco
+                    eléctrico se caracteriza por la presencia de acetileno. Otros gases de hidrocarburos e hidrógeno se
+                    generarán con acetileno debido a temperaturas más bajas que rodean el arco.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </td>
+      </tr>
+      <tr class="view">
+        <td>1.3 Análisis de furanos ASTM D5837</td>
+      </tr>
+      <tr class="fold">
+        <td colspan="7">
+          <div class="fold-content">
+            <!-- <h3>Company Name</h3> -->
+            <p style="text-align: justify">Los compuestos furánicos se generan por la degradación de materiales celulósicos utilizados en los
+              sistemas de aislamiento sólido de equipos eléctricos. Los compuestos furánicos que son solubles en aceite
+              en un grado apreciable migrarán al líquido aislante. La presencia de altas concentraciones de compuestos
+              furánicos es significativa ya que esto puede ser una indicación de degradación de la celulosa por
+              envejecimiento o condiciones de falla incipientes.</p>
+
+              <p style="text-align: center">
+                <img src="furano1.jpeg" alt="" width="300" />
+                <img src="furano2.jpeg" alt="" width="300"  />
+                <img src="furano3.jpeg" alt="" width="300"  /><br />
+              </p>
+
+          </div>
+        </td>
+      </tr>
+      <tr class="view">
+        <td>1.4 Análisis de azufre corrosivo – ASTM D1275/IEC 62535</td>
+      </tr>
+      <tr class="fold">
+        <td colspan="7">
+          <div class="fold-content">
+            <!-- <h3>Company Name</h3> -->
+            <p>La presencia de azufre y otros compuestos corrosivos en los líquidos aislantes puede conducir a la
+              corrosión de las superficies metálicas dentro del equipo eléctrico. Los compuestos corrosivos pueden
+              detectarse observando el efecto del líquido sobre superficies de cobre bajo las condiciones controladas de
+              temperatura y tiempo.
+            </p><br>
+            <p style="text-align: center;"><b>Proceso de la reacción del azufre corrosivo con el cobre</b></p>
+
+            <p style="text-align: center">
+              <img src="img_3.png" alt="" /><br />
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr class="view">
+        <td>1.5 Análisis de conteo de partículas – ASTM D6786/IEC 60970</td>
+      </tr>
+      <tr class="fold">
+        <td colspan="7">
+          <div class="fold-content">
+            <!-- <h3>Company Name</h3> -->
+            <p>El analisis del conteo de particulas es importante en el analisis de aceite debido al efecto de las
+              partículas sobre la rigidez dieléctrica del aceite aislante disminuyendo su capacidad dieléctrica.
+              A lo largo de los años, varias fallas de transformadores en el campo y en la fábrica se han atribuido a
+              las partículas. Estos allasgos ha llevado a un riguroso procedimiento de filtrado en la fábrica.</p>
+          </div>
+        </td>
+      </tr>
+      <tr class="view">
+        <td>1.6 Análisis de PCB</td>
+      </tr>
+      <tr class="fold">
+        <td colspan="7">
+          <div class="fold-content">
+            <!-- <h3>Company Name</h3> -->
+            <p style=" text-align: justify;">
+              Los bifenilos policlorados (PCB) son productos químicos orgánicos producidos a escala industrial desde
+              1930, y debido a sus propiedades físico-químicas fueron ampliamente usados durante décadas. </p>
+            <p style=" text-align: justify;">Los PCB son difícilmente inflamables, poseen excelentes propiedades
+              dieléctricas y alta persistencia química. Es esta persistencia lo que hace a este compuesto altamente
+              peligroso, ya que permanece inalterable durante periodos prolongados al entrar en contacto con el
+              ambiente.</p>
+            <p style="text-align: justify;">Frente a esta problemática, el estado peruano cuenta con un plan de
+              identificación de los transformadores que tengan PCB, para contribuir con la gestión ambientalmente de PCB
+              y sus desechos, y la disminución de la contaminación por este contaminante para proteger la salud humana y
+              el ambiente.</p>
+            <table>
+              <thead>
+                <tr>
+                  <th>Parámetro</th>
+                  <th>Norma</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Analisis de PCB cuanitativo</td>
+                  <td>ASTM D4059</td>
+                </tr>
+                <tr>
+                  <td>Analisis de PCB cualitativo</td>
+                  <td>EPA 9079</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </td>
+      </tr>
+      <tr class="view">
+        <td>1.7 TCA</td>
+      </tr>
+      <tr class="fold">
+        <td colspan="7">
+          <div class="fold-content">
+            <!--           <h3>Company Name</h3> -->
+            <p style="text-align: justify;">
+              La forma más accesible y eficiente de determinar la condición del transformador es usar el fluido como
+              medio de diagnóstico. Se ha estimado que los fluidos de transformadores contienen alrededor del 70% de la
+              información de diagnóstico disponible para transformadores. El desafío es acceder a él y usarlo de manera
+              efectiva. Los programas tradicionales de prueba de aceite de transformador utilizan solo unos pocos
+              parámetros de diagnóstico, lo que deja sin usar una gran cantidad de información importante basada en el
+              aceite. Las encuestas de transformadores fallados han revelado que muchas fallas pueden atribuirse a
+              problemas que podrían haberse manejado correctamente con un análisis más detallado del fluido aislante.
+            </p>
+            <p style="text-align: justify;">Para satisfacer la demanda de una herramienta de gestión de transformadores
+              mejorada, TJIH2b Analytical Services ha desarrollado Evaluación de la condición del transformador, TCA®.
+              TCA® ofrece una evaluación integral del estado dieléctrico y mecánico del transformador a través del
+              análisis del fluido aislante del transformador. La selección de pruebas de TCA® incluye aplicaciones del
+              campo de la microscopía, lo que brinda una mejor comprensión de los problemas y riesgos asociados con la
+              operación continua del transformador.</p>
+            <p><b>El TCA involucra los siguientes analisis</b><br>
+              <i class="fa fa-long-arrow-right"></i> Fisicoquímico, parámetros estándar<br>
+              <i class="fa fa-long-arrow-right"></i> Analisis de gases disueltos<br>
+              <i class="fa fa-long-arrow-right"></i> Inhibidor de oxidación<br>
+              <i class="fa fa-long-arrow-right"></i> Conteo de partículas<br>
+              <i class="fa fa-long-arrow-right"></i> Analisis de furanos<br>
+              <i class="fa fa-long-arrow-right"></i> Algoritmo matemático<br>
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr class="view">
+        <td>1.8 TASA</td>
+      </tr>
+      <tr class="fold">
+        <td colspan="7">
+          <div class="fold-content">
+            <!-- <h3>Company Name</h3> -->
+            <p style="padding-left: 23px; padding-right: 30px; text-align: justify;">
+
+              DGA se ha aplicado con éxito durante muchos años a equipos de energía llenos de aceite de conmutación sin
+              corriente. La aplicación del análisis de gas disuelto para cargar cambiadores de tomas (LTC) tiene
+              similitudes y diferencias con el uso de DGA en otros equipos de energía llenos de aceite. Es similar en
+              que los mismos procesos producen los mismos gases. Sin embargo, en términos de producción de gas, los LTC
+              son mucho más complejos que los transformadores. Los LTC pueden o no producir todos los llamados "gases
+              defectuosos" en funcionamiento normal y los gases que se producen pueden o no perderse a través de la
+              ventilación.</p>
+            <p style="padding-left: 23px; padding-right: 30px; text-align: justify;">Las primeras aplicaciones de DGA
+              para evaluar la condición del cambiador de tomas en carga se basaron en experiencias con transformadores.
+              Se desarrollaron límites de umbral para los gases producidos por sobrecalentamiento tanto individualmente
+              como en combinación. Muchos factores como el diseño, las operaciones, la ventilación y la filtración en
+              línea afectan los niveles de gas. En consecuencia, este enfoque de umbral de gas ofreció un éxito
+              limitado, pero demostró la utilidad potencial de las pruebas de fluidos para la evaluación de la condición
+              de LTC. Dado que los datos de gas por sí solos no pueden proporcionar suficiente información para evaluar
+              completamente la condición de LTC, se requirieron nuevos enfoques para las evaluaciones de LTC. La
+              búsqueda de este nuevo enfoque condujo al desarrollo de Tap Changer Activity Signature Analysis o TASA®,
+              que proporciona una evaluación del estado de los componentes de la ruta de carga.</p>
+            <p style="padding-left: 23px; padding-right: 30px; text-align: justify;">Además de proporcionar información
+              útil para el mantenimiento del fluido aislante, las pruebas de evaluación de fluidos se utilizan junto con
+              los datos de gas LTC para proporcionar información de diagnóstico sobre el estado de los cambiadores de
+              tomas de carga. Mantener el aceite libre de agua, productos de descomposición del arco y otros
+              contaminantes es esencial para el correcto funcionamiento del cambiador de tomas en carga. El perfilado de
+              partículas proporciona información importante sobre el deterioro de los materiales que dan como resultado
+              la producción de partículas. Esto incluye información sobre los procesos en servicio, como la degradación
+              de fluidos, el deterioro de los contactos y el desgaste mecánico de las piezas móviles y la formación de
+              óxido. Dos de los procesos de degradación de fluidos más importantes a evaluar son la carbonización del
+              petróleo y la formación de coque.</p>
+            <p style="padding-left: 23px; padding-right: 30px; "><b>El TASA involucra los siguientes analisis</b><br>
+              <i class="fa fa-long-arrow-right"></i> Fisicoquímico, parámetros estándar<br>
+              <i class="fa fa-long-arrow-right"></i> Analisis de gases disueltos<br>
+              <i class="fa fa-long-arrow-right"></i> Conteo de partículas<br>
+              <i class="fa fa-long-arrow-right"></i> Algoritmo matemático<br>
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr class="view">
+        <td>1.9 Otros</td>
+      </tr>
+      <tr class="fold">
+        <td colspan="7">
+          <div class="fold-content">
+            <!-- <h3></h3> -->
+            <!-- <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p> -->
+            <table>
+              <thead>
+                <tr>
+                  <th>Parámetro</th>
+                  <th>Norma</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Pasivador</td>
+                  <td>IEC 60666</td>
+                </tr>
+                <tr>
+                  <td>DBDS</td>
+                  <td>IEC 62697</td>
+                </tr>
+                <tr>
+                  <td>Microscopia optica</td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Load jQuery, SimpleModal and Basic JS files -->
+  <script type='text/javascript' src='js/jquery.js'></script>
+  <script type='text/javascript' src='js/jquery.simplemodal.js'></script>
+  <script type='text/javascript' src='js/basic.js'></script>
+
+
+  <!-- partial -->
+  <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
